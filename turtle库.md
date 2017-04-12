@@ -32,20 +32,16 @@ drawSnake(40, 80, 5, 15)
 ## 函数解析
 
 - turtle.setup()  
-turtle中的turtle.setup()函数用于启动一个图形窗口，它有四个参数：
-```python
-turtle.setup(width, height, startx, starty)
-```
-分别是：启动窗口的宽度，高度，以及窗口左上角在屏幕中的坐标位置。
-> 我们所使用的显示屏幕也是一个坐标系，该坐标系以**左上角**为原点，向右和向下分别是x轴和y轴：
+turtle中的turtle.setup()函数用于启动一个图形窗口，它有四个参数`turtle.setup(width, height, startx, starty)`  
+分别是：启动窗口的宽度，高度，以及窗口左上角在屏幕中的坐标位置。  
+我们所使用的显示屏幕也是一个坐标系，该坐标系以**左上角**为原点，向右和向下分别是x轴和y轴：  
 ![屏幕坐标系统](http://static.zybuluo.com/liangxw/cumx458dw2fnaxgxeef3tfm7/image_1bdd4030bge1nh81b1d1j7213q9.png)
 
-
-- turtle.up() turtle.down()   
+- turtle.up()和turtle.down()   
 turtle.up()为提起画笔  
 turtle.down()为放下画笔
 
-- turtle.goto()
+- turtle.goto()  
 初始时刻，小乌龟在启动窗口的正中央，坐标为(0, 0)（此为画图窗口的原点，而不是屏幕的原点），向右和向上为正方向。  
 通过turtle.goto(x, y)可以将小乌龟移动到(x, y)坐标处。
 
@@ -57,7 +53,7 @@ turtle采用RGB方式来定义颜色，如turtle.pencolor("#3B9909")。
 
 - turtle.seth()  
 turtle.seth(angle)函数表示小乌龟**初始时运动方向**。  
-输入参数是一个角度值，其中0表示向东，90度向北，180度向西，270度向南；负值表示的方向与正值表示的方向关于方向0对称：
+输入参数是一个角度值，其中0表示向东，90度向北，180度向西，270度向南；负值表示的方向与正值表示的方向关于方向0对称：  
 ![angle表示方向](http://static.zybuluo.com/liangxw/u7hcs8d5zncanffjmz5qfa67/image_1bde3j2cd1k0av1qth81lqs63n1g.png)
 
 - turtle.circle()  
