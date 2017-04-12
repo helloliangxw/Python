@@ -60,7 +60,7 @@ turtle.seth(angle)函数表示小乌龟**初始时运动方向**。
 turtle.circle(rad, angle)函数让小乌龟沿着一个**圆形**爬行。  
 参数rad描述圆形轨迹**圆心**的位置，rad>0时，圆心在当前速度方向的左侧；当rad<0时，圆心在当前速度方向的右侧；  
 参数angle表示小乌龟沿着圆形爬行的角度值，angle>0表示逆时针运动，angle<0表示顺时针运动。  
-> 如下图所示，此时rad>0，angle<0。
+> 如下图所示，此时rad>0，angle<0  
 ![](http://static.zybuluo.com/liangxw/l1u4axw8apujrcowd961bxx3/image_1bdgbqdij1fkfkt512e03fh2bk9.png)
 
 - turtle.fd()  
